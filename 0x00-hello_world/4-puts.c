@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/**
-  main - puts "programing without prints but with puts"
+/
+	main - print "programing without prints but with puts"
 Return: 0 (success)
 */
 init main(void)
