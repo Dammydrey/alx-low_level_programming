@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *main - Entry point
-*Description:  A program that print a piece of art using printf function
+*Description: A program that prints using the puts function
 *return: 0 (success)
 */
 
