@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
   *main - Entry point
-  *return: always 0 (success)
+  *Description: 'A programe that tell the size of int'
+  *Return: Always 0 (success)
   */
 int main(void)
 {
@@ -10,5 +11,5 @@ int main(void)
 	printf("size of a long int: %d byte(s)", sizeof(long int));
 	printf("size of a long long int: %d byte(s)", sizeof(long long int));
 	printf("size of a float: %d byte(s)", sizeof(float));
-	return (0);
+return (0);
 }
