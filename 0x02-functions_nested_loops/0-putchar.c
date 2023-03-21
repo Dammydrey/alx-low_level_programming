@@ -3,17 +3,19 @@
 /**
  * main - function to print
  *
- * Return: 0
+ * Return: always 0
  */
 int main(void)
 {
-	char main[9] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
-	unsigned int c;
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_putchar("a");
+	_putchar("r");
+	_putchar('\n');
 
-	for (c = 0; c < sizeof(holberton); c++)
-	{
-		_putchar(main[c]);
-	}
-_putchar('\n');
-return (0);
+	return (0);
 }
