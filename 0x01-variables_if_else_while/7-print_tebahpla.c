@@ -3,17 +3,17 @@
 #include <stdio.h>
 
 /**
- *main - numbers to 10
+ *main - print alphabet in reverse order
  *Return: Always 0 (success)
- *
  */
+
 int main(void)
 {
+	char fe;
 
-	int d;
-
-	for (d = '0'; d <= '9'; d++)
-	putchar(d);
+	for (fe = 'z'; fe >= 'a'; fe--)
+	putchar(fe);
 	putchar('\n');
+
 	return (0);
 }
