@@ -12,7 +12,7 @@ int main(void)
 	char fe;
 
 	for (num = 0; num <= 9; num++)
-		putchar((num);
+		putchar(num);
 
 	for (fe = 'a'; fe <= 'f'; fe++)
 		putchar(fe);
